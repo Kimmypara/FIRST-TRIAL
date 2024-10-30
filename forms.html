@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="BasicHTML.html">Home Page</a>
+        </li>
+        <li>
+            <a href="page2.html">Page 2</a>
+        </li>
+        <li>
+            <a href="forms.html">Forms</a>
+        </li>
+    </ul>
+    
+    <h1>Form </h1>
+    <form action="mailto:kparascandalo@gmail.com"
+    method="post" enctype="text/plain">
+        
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" 
+                name="first-name" placeholder="Joe">
+            </div>    
+            
+            <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" placeholder="Borg">
+            </div>
+            
+            <div>
+                <p>Age Group</p>
+                
+                <input type="radio" name="age" id="age1" value="1">
+                <label for="age1">15 - 18</label>
+                <br>
+                
+                <input type="radio" name="age" id="age2" value="2">
+                <label for="age2">19 - 25</label>
+                <br>
+                
+                <input type="radio" name="age" id="age3" value="3">
+                <label for="age3">26 - 40</label>
+                <br>
+                
+                <input type="radio" name="age" id="age4" value="4">
+                <label for="age4">41+</label>
+                <br>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Contact Information</legend>
+            
+            <div>
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="joeborg@gmail.com">
+            </div>
+            
+            <div>
+                <label for="phone"></label>
+                <input type="tel" name="phone" id="phone" placeholder="1234 5678" pattern="[0-9]{4} [0-9]{4}">
+            </div>
+
+            <div>
+                
+                <input type="checkbox" name="contact" id="contact">
+                <label for="contact">Contact me about offers</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Message Details</legend>
+
+            <div>
+                <label for="department">Department</label>
+                <select name="department" id="department">
+                    <option value="" disabled selected>Please select department</option>
+                    <option value="1">Customer support</option>
+                    <option value="2">Technical support</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject" placeholder="Please help">
+            </div>
+
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" 
+                placeholder="I have a problem with my account..."
+                cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+
+        <div>
+            <button type="reset">Cancel</button>
+            <button type="submit">Submit</button>
+            
+        </div>
+        
+    </form>
+</body>
+</html>

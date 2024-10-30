@@ -1,0 +1,33 @@
+div{
+    box-sizing: border-box;
+}
+
+.box{
+    border: 1px #000000 solid;
+    padding: 20px;
+    
+}
+
+.small-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.small-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.big-box{
+    width: 300px;
+    margin: auto;
+    background-color: aqua;
+}
+
+#sb1{
+    background-color: #8a2be2;
+}
+
+#sb2{
+    background-color: #f5f5dc;
+}
