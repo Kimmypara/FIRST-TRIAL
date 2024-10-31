@@ -1,0 +1,18 @@
+div{
+border: 1px #000000 solid;
+padding: 30px;
+margin-bottom: 20px;
+}
+
+#container{
+    display: flex;
+}
+
+aside{
+    flex: 1;
+    border: 1px #000000 solid;
+}
+
+#container div{
+    flex: 3;
+}

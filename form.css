@@ -8,6 +8,8 @@
 .legend{
     position: relative;
     margin: auto;
+    border: #be4a4a solid 1px;
+    border-radius: 20px;
 }
 
 .reset{
