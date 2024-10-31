@@ -1,0 +1,23 @@
+.form{
+    color: blue;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+.legend{
+    position: relative;
+    margin: auto;
+}
+
+.reset{
+    color: brown;
+    background-color: #80b1dc;
+    border: none;
+   cursor: pointer;
+   
+}
+
+.reset:hover{
+    background-color: #1f5cad;
+}
