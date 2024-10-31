@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="index.html">
+              <div class="image-div">
+                <img src="" alt="">
+              </div>  
+            </a>
+        </nav>
+    </header>
     <ul>
         <li>
             <a href="BasicHTML.html">Home Page</a>
@@ -20,12 +29,12 @@
     </ul>
     
     <h1>Form </h1>
-    <form action="mailto:kparascandalo@gmail.com"
+    <form class="form" action="mailto:kparascandalo@gmail.com"
     method="post" enctype="text/plain">
         
         <fieldset>
-            <legend>Personal Details</legend>
-            <div>
+            <legend class="legend" >Personal Details</legend>
+            <div >
                 <label for="first-name">First Name</label>
                 <input type="text" id="first-name" 
                 name="first-name" placeholder="Joe">
@@ -58,7 +67,7 @@
         </fieldset>
         
         <fieldset>
-            <legend>Contact Information</legend>
+            <legend class="legend" >Contact Information</legend>
             
             <div>
                 <label for="email"></label>
@@ -78,7 +87,7 @@
         </fieldset>
 
         <fieldset>
-            <legend>Message Details</legend>
+            <legend class="legend" >Message Details</legend>
 
             <div>
                 <label for="department">Department</label>
@@ -103,7 +112,7 @@
         </fieldset>
 
         <div>
-            <button type="reset">Cancel</button>
+            <button class="reset" type="reset">Cancel</button>
             <button type="submit">Submit</button>
             
         </div>
