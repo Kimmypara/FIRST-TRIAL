@@ -12,21 +12,45 @@ h1{
     display: flex;
 }
 
-aside{
-    flex: 1;
-    border: 1px #000000 solid;
-    text-decoration: none;
+li{
+    list-style-type: none;
+}
+
+#container aside{
+    flex: 2;
+    margin-left: -0.5rem;
+    margin-top: 0.5rem;
 }
 
 #container main{
     flex: 3;
-    
+    margin-top: -0.70rem;
+    margin-bottom: -.50rem;
+    margin-right: -2rem;
+    padding-top: 1rem;
+    padding-right: 3rem;
 }
 
+
+
 #container ul li a{
-    background-color: gray;
+    background-color: #cbcaca;
     display: inline-block;
-    
+    width: 100%; 
+    margin-left: -3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+   
+}
+
+#container ul li a:hover{
+    color: white;
+    background-color: #0c2e6ce6;
 }
 
 footer p{
@@ -36,11 +60,4 @@ footer p{
     padding: 1rem;
 }   
 
-h2{
-    padding-left: 0.5rem;
-}
 
-p{
-    padding-left: 0.5rem;
-    padding-right: 1rem;
-}
