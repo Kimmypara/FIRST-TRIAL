@@ -23,3 +23,8 @@
 .reset:hover{
     background-color: #1f5cad;
 }
+
+/*Hidden elements*/
+.hidden{
+    display: none;
+}

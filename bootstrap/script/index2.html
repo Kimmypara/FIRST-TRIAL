@@ -7,15 +7,29 @@
     <script src="../script/jsintro.js"></script>
     <script src="../script/oop.js"></script>
     <script src="../script/lists.js"></script>
+    <script src="../script/functions.js"></script>
 </head>
 <body>
     <h3>Introduction to JavaScript</h3>
+
+    <button onclick="hi();">button</button>
 </body>
 
 <script>
     //JS Basics
 
     //Show some text in Dev Tools Console
-    console.log('hello')
+    //console.log('hello')
+
+    //Call a function from JS file
+    helloworld();
+    helloworld();
+    helloworld();
+
+    hellouser('Kim');
+
+    let result = add(5,2);
+    result = add(result, 7);
+    console.log(result);
 </script>
 </html>
