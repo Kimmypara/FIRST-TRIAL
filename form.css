@@ -5,6 +5,17 @@
     margin: auto;
 }
 
+.inputError{
+    border: red solid 2px;
+    background-color: rgb(240, 200, 200);
+    color: #1f5cad;
+}
+
+.inputError::placeholder{
+    color: #be4a4a;
+   
+}
+
 .legend{
     position: relative;
     margin: auto;
