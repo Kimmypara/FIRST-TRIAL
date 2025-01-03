@@ -4,7 +4,7 @@ function validate(){
     let firstName = document.getElementById("firstName").value;
 //Condition 
     if(firstName == ""){
-errors = errors+"<li>Please enter First Name</li>"
+errors = errors+"<li>Please enter First Name</li>";
 document.getElementById("firstName").classList.add("inputError");
     }
     else{
